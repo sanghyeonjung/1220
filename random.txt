@@ -9,6 +9,26 @@ int main()
         randoma = rand()%20 + 1;
         int randomb = 0; 
         randomb = rand()%20 + 1;
-        int ans = randoma + randomb;
+        int pm = rand()%4 + 1;
+        int ans = 0;
+        char c;
+        switch(pm){
+            case 1 :
+            c = '+'
+            ans = randoma + randomb;
+            break;
+            case 2 :
+            c = '-'
+            ans = randoma - randomb;
+            break;
+            case 3 :
+            c = '*'
+            ans = randoma * randomb;
+            break;
+            case 4 :
+            c = '/'
+            ans = randoma / randomb;
+            break;
+        }
     }
 }
