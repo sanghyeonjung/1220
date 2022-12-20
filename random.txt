@@ -30,5 +30,16 @@ int main()
             ans = randoma / randomb;
             break;
         }
+        int a = 0;
+        printf("[%d/10] %d %c %d = %d",k,randoma,c,randomb,ans);
+        scanf("%d",&a);
+        if(a == ans)
+        {
+            printf("Correct!\n");
+        }
+        else
+        {
+            printf("Wrong! Answer is %d.\n",ans);
+        }
     }
 }
